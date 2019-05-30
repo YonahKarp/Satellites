@@ -1,0 +1,43 @@
+{
+  "name": "weatherReact",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "node-sass --watch src/scss -o src/css | parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@esri/react-arcgis": "^4.0.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-redux": "^7.0.3",
+    "react-three": "^0.9.7",
+    "satellite.js": "^3.0.1",
+    "three": "^0.105.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-preset-nano-react-app": "^0.1.0",
+    "parcel-bundler": "^1.11.0"
+  },
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ],
+      [
+        "@babel/plugin-transform-react-jsx",
+        {
+          "pragmaFrag": "React.Fragment"
+        }
+      ]
+    ]
+  }
+}
