@@ -2,6 +2,6 @@ import { createStore } from "redux";
 import reducer from "../reducers";
 
 const initialState = {
-    property: "value"
+    tle: []
 }
 export const store = createStore(reducer, initialState);

@@ -1,5 +1,5 @@
 {
-  "name": "weatherReact",
+  "name": "whereIsStarlink",
   "version": "0.1.0",
   "description": "",
   "scripts": {
@@ -13,6 +13,7 @@
     "react-dom": "^16.8.1",
     "react-redux": "^7.0.3",
     "react-three": "^0.9.7",
+    "satellite": "0.0.2",
     "satellite.js": "^3.0.1",
     "three": "^0.105.1"
   },

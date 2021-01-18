@@ -1,9 +1,9 @@
 
-export const SET_PROPERTY= 'SET_PROPERTY';
+export const SET_TLE= 'SET_TLE';
 
-export function setProperty(property) {
+export function setTle(tle) {
   return { 
-      type: SET_PROPERTY, 
-      payload: {property: property} 
+      type: SET_TLE, 
+      payload: {tle: tle} 
     }
 }

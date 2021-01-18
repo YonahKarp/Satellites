@@ -1,12 +1,12 @@
 
-import {SET_PROPERTY} from "../actions";
+import {SET_TLE} from "../actions";
 
 function reducer(state, action) {
     switch(action.type){
-        case SET_PROPERTY:
+        case SET_TLE:
             return{
                 ...state,
-                property: action.payload.property,      
+                tle: action.payload.tle,      
             }
             
         default:
